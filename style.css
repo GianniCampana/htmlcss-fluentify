@@ -13,7 +13,7 @@ header {
 .container {
   width: 100%;
   height: 500px;
-  background-image: url(background-header.png);
+  background-image: url(img/background-header.png);
   background-size: 1000px;
   background-repeat: no-repeat;
   background-position: 94% 100%;
@@ -253,26 +253,71 @@ img {
   font-family: "Roboto", sans-serif;
   font-size: 200%;
   margin-left: 0%;
-  background-color: hotpink;
+
   width: 15%;
   padding-top: 4%;
   padding-left: 10%;
+  float: left;
 }
 
 .divfooterdue {
-  background-color: hotpink;
   font-family: "Roboto", sans-serif;
   color: rgb(95, 94, 94);
-  padding-top: 4%;
-  width: 5%;
   padding-top: 5%;
-  margin-left: 50%;
+  width: 5%;
+  margin-left: 30%;
+  float: left;
 }
 
 .divfootertre {
   font-family: "Roboto", sans-serif;
   color: rgb(95, 94, 94);
-  background-color: hotpink;
-  width: 10%;
-  margin-left: 60%;
+
+  width: 13%;
+  padding-top: 5%;
+  float: left;
+}
+
+.hrfooter {
+  margin-top: 0%;
+}
+
+.freccia {
+  color: gray;
+  margin-left: 105px;
+}
+
+.btnfooter {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(8, 184, 8);
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px 10px 15px;
+  width: 13%;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+
+.help {
+  float: left;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(8, 184, 8);
+  border-radius: 5%;
+  width: 5%;
+  height: 50px;
+  padding-top: 2%;
+  text-align: center;
+
+  position: fixed;
+  width: 5%;
+  height: 50px;
+  top: 90%;
+  bottom: 5%;
+  left: 90%;
+  right: 10%;
+  z-index: 3;
 }
